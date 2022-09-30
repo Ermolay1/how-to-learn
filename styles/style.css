@@ -132,7 +132,10 @@ top: 30px;
    font-size: 60px;
    line-height: 1.15;
    font-weight: 600;
-
+   padding-top: 80px;
+   text-align: center;
+   width: 60%;
+   margin-left: 20%;
 
 }
 .section_subtitr{
@@ -210,12 +213,6 @@ top: 30px;
   z-index: -1;
   right: -230px;
   left: auto;
-}
-.section-title{
-  padding-top: 80px;
-   text-align: center;
-   width: 60%;
-   margin-left: 20%;
 }
 .section-subtitle{
    width: 60%;
