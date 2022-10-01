@@ -57,7 +57,7 @@ top: 30px;
   bottom: 30px;
 }
 .link{
-  color: #2fb0ed;
+  color: #2f80ed;
 }
 .header__main-illustration{
   position: absolute;
@@ -73,7 +73,7 @@ top: 30px;
   position: absolute;
   width: 568px;
   height: 568px;
-  background: #2fb0ed;
+  background: #2f80ed;
   right: 0;
   top: 64px;
   z-index: -2;
@@ -96,7 +96,7 @@ top: 30px;
 .two-columns__brief{
 
   flex-basis: 175px;
-  color: #2fb0ed;
+  color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
 }
@@ -199,20 +199,20 @@ top: 30px;
   position: relative;
   z-index: -2;
    bottom: auto;
+   overflow: hidden;
 }
  .triangle{
-  position: absolute;
-   padding-top: 80px;
-  top: 0;
-  width: 877px;
-  height: 877px;
-  bottom: 90px;
-  background-image: url(../images/kaufman-triangle.svg);
-  background-size: cover;
+ background-image: url(../images/kaufman-triangle.svg);
  background-repeat: no-repeat;
   z-index: -1;
   right: -230px;
-  left: auto;
+  background-size: contain;
+ position: absolute;
+ top: 0;
+ width: 877px;
+ height: 877px;
+ bottom: 90px;
+
 }
 .section-subtitle{
    width: 60%;
@@ -243,6 +243,8 @@ top: 30px;
    min-height: 350px;
    padding-top: 60px;
    padding-bottom: 40px;
+   display: flex;
+   flex: content;
 }
 .footer__columns{
 
@@ -258,9 +260,9 @@ top: 30px;
 
    margin-top: 0;
    margin-bottom: 0;
-   margin-left: 0;
+   margin-left: auto;
    margin-right: auto;
-
+   width: 100%;
   flex-basis: 711px;
   flex-shrink: 1;
 
