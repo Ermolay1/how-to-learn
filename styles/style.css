@@ -106,7 +106,8 @@
   line-height: 34px;
   margin-top: 20px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .two-columns__span-accent {
   font-size: 24px;
@@ -115,6 +116,8 @@
 }
 .digits {
   margin-bottom: 100px;
+  margin-top: 100px;
+  position: relative;
 }
 .section {
   border-top: 100px;
@@ -124,23 +127,22 @@
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
-  padding-top: 80px;
+  padding-top: 90px;
   text-align: center;
   width: 60%;
   margin-left: 20%;
+  margin-bottom: 20px;
 }
 .section_subtitle {
-  top: 20px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 2px solid red;
   text-align: center;
   width: 60%;
   margin-left: 20%;
 }
 .digits__table {
-  margin-bottom: 100px;
+  margin-top: 0;
 }
 .table-cell {
   width: 250px;
@@ -148,7 +150,8 @@
 }
 
 .feynman {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+  padding-top: 80px;
   background-color: #f2f2f2;
   height: 890px;
   background-image: url(../images/feynman.png);
@@ -165,7 +168,7 @@
   width: 648px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+
   margin-bottom: 70px;
   text-align: center;
 }
@@ -197,18 +200,18 @@
   z-index: -2;
   bottom: auto;
   overflow: hidden;
+  padding-bottom: 90px;
 }
 .triangle {
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
   z-index: -1;
-  right: -230px;
+  right: -210px;
   background-size: contain;
   position: absolute;
   top: 0;
   width: 877px;
   height: 877px;
-  bottom: 90px;
 }
 .section-subtitle {
   width: 60%;
@@ -218,7 +221,7 @@
   margin-bottom: 0;
   padding-bottom: 0;
 }
-.title{
+.title {
   margin-top: 90;
 }
 .table {
@@ -231,7 +234,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.kaufman__table{
+.kaufman__table {
   margin-bottom: 90px;
 }
 .table__cell {
@@ -239,17 +242,16 @@
   padding-top: 80px;
 }
 .table__heading {
-  top: 80px;
+  padding-top: 80px;
 }
 .footer {
-  margin-top: 80;
   min-height: 350px;
   padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
   flex: content;
 }
-.logo_place_footer{
+.logo_place_footer {
   top: 0;
   left: 0;
 }
