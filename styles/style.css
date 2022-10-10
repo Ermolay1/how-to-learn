@@ -51,7 +51,6 @@
   font-size: 18px;
   left: 64px;
   bottom: 30px;
-
 }
 .header__link {
   color: #2f80ed;
@@ -254,10 +253,10 @@
   padding-top: 80px;
   z-index: 1;
 }
-.table__heading_theme_dark{
+.table__heading_theme_dark {
   color: white;
 }
-.table__text_theme_dark{
+.table__text_theme_dark {
   color: white;
 }
 .footer {
