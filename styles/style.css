@@ -45,6 +45,8 @@
   font-weight: 600;
 }
 .header__subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
   position: absolute;
   width: 388px;
   line-height: 25px;
@@ -228,6 +230,7 @@
   overflow: hidden;
   background-color: #1f1f1f;
   color: white;
+  z-index: 1;
 }
 .section-title_theme_dark {
   margin-top: 90px;
@@ -241,7 +244,7 @@
   top: 0;
   width: 877px;
   height: 877px;
-  z-index: 0;
+  z-index: -1;
 }
 .table_theme_dark {
   margin-top: 0;
@@ -251,7 +254,6 @@
 .table__cell_theme_dark {
   width: 200px;
   padding-top: 80px;
-  z-index: 1;
 }
 .table__heading_theme_dark {
   color: white;
@@ -294,6 +296,8 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
 }
 .footer__social-icon {
   width: 16px;
