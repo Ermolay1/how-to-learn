@@ -1,0 +1,15 @@
+.table_theme_dark {
+  margin-top: 0;
+
+  margin-bottom: 90px;
+}
+.table__cell_theme_dark {
+  width: 200px;
+  padding-top: 80px;
+}
+.table__heading_theme_dark {
+  color: white;
+}
+.table__text_theme_dark {
+  color: white;
+}
